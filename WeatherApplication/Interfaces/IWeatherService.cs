@@ -1,4 +1,5 @@
-﻿using WeatherForecastApplication.DTOs;
+﻿using WeatherApplication.DTOs;
+using WeatherForecastApplication.DTOs;
 
 namespace WeatherForecastApplication.Interfaces
 {

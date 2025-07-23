@@ -1,8 +1,8 @@
-﻿using WeatherForecastApplication.DTOs;
+﻿using WeatherApplication.DTOs;
+using WeatherForecastApplication.DTOs;
 using WeatherForecastApplication.Interfaces;
 using WeatherForecastDomain.Interfaces;
-using DailyForecastDto = WeatherForecastApplication.DTOs.DailyForecastDto;
-using ForecastResponseDto = WeatherForecastApplication.DTOs.ForecastResponseDto;
+
 
 
 namespace WeatherForecastApplication.Services
@@ -56,7 +56,7 @@ namespace WeatherForecastApplication.Services
         }
 
 
-        public async Task<WeatherForecastApplication.DTOs.ForecastResponseDto> Get5DayForecastAsync(string city)
+        public async Task<ForecastResponseDto> Get5DayForecastAsync(string city)
         {
             // Adiciona busca no histórico (não retorna nada)
             await _cacheRepository.AddSearchHistoryAsync(city);

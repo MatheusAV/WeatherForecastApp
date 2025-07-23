@@ -1,7 +1,8 @@
 using Microsoft.AspNetCore.Mvc;
+using WeatherApplication.DTOs;
 using WeatherForecastApplication.DTOs;
 using WeatherForecastApplication.Interfaces;
-using ForecastResponseDto = WeatherForecastApplication.DTOs.ForecastResponseDto;
+
 
 namespace WeatherForecast.Api.Controllers
 {
