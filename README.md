@@ -2,9 +2,9 @@
 # WeatherForecastAPI
 
 ![Badge](https://img.shields.io/badge/Status-Conclu%C3%ADdo-green)
-![GitHub issues](https://img.shields.io/github/issues/SeuUsuario/WeatherForecastAPI)
-![GitHub stars](https://img.shields.io/github/stars/SeuUsuario/WeatherForecastAPI)
-![GitHub forks](https://img.shields.io/github/forks/SeuUsuario/WeatherForecastAPI)
+![GitHub issues](https://img.shields.io/github/issues/MatheusAV/WeatherForecastApp)
+![GitHub stars](https://img.shields.io/github/stars/MatheusAV/WeatherForecastApp)
+![GitHub forks](https://img.shields.io/github/forks/MatheusAV/WeatherForecastApp)
 
 ## 📝 Descrição
 
@@ -43,7 +43,7 @@ Conta com tratamento global de erros, logs estruturados com **Serilog**, documen
 
 1. **Clone o repositório:**
    ```bash
-   git clone https://github.com/SeuUsuario/WeatherForecastAPI.git
+   git clone https://github.com/MatheusAV/WeatherForecastApp.git
    cd WeatherForecastAPI
    ```
 
